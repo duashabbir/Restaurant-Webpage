@@ -81,7 +81,7 @@ padding-left: 40px;
 
 .section2{
     background-repeat: no-repeat;
-background-size: contain;
+    background-size: cover;
     background-image: url("https://thumbs.dreamstime.com/b/wood-background-texture-smooth-wooden-boards-scored-stained-age-33384631.jpg")
 
 }
@@ -98,7 +98,7 @@ background-size: contain;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* ================= TABLE ================= */
+/* ================= foo menu TABLE ================= */
 .card{
     width: 85%; 
     margin: 0 auto;   
@@ -112,4 +112,240 @@ td img{
 width: 200px;
 height: 120px;
 object-fit: cover;
+}
+ /* Food Section deal */
+ .foodcart{
+    height: auto;
+    min-height: auto;
+background-repeat: no-repeat;
+background-size: cover;
+    background-image: url("data:image/jpeg;base64,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")}
+    
+ 
+ 
+
+ /* Food Deal Card */
+ p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+ }
+#head1{
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_VVW9BLSa_D86iXLLRPjboXv03Sd9w6Hcg&s");
+    width: 450px;
+    height: 150px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    border: 2px solid rgb(12, 12, 12);
+
+}
+.pizzacart{
+    width: 350px;
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: 0.3s;
+    position: relative;
+    left: 30vh;
+right: 7vh;
+top: 1vh;
+}
+
+.pizzacart:hover{
+    transform: scale(1.05);
+}
+
+.pizzacart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pizzacart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+
+ 
+.partycart{
+    width: 350px;
+    padding: 20px;
+    border: 2px solid rgb(9, 9, 9);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 50px auto;
+    transition: 0.3s;
+    position: relative;
+    left: 3vh;
+    bottom: 62vh;
+
+}
+
+.partycart:hover{
+    transform: scale(1.05);
+}
+
+.partycart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.partycart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bbqcart{
+    width: 350px;
+   
+    padding: 20px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 50px auto;
+    transition: 0.3s;
+    position: relative;
+    bottom: 1009px;
+    left: 430px;
+
+}
+.bbqcart:hover{
+    transform: scale(1.05);
+}
+
+.bbqcart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bbqcart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.desicart{
+    width: 350px;
+    padding: 20px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 50px auto;
+    transition: 0.3s;
+    position: relative;
+    bottom: 900px;
+    right: 47vh;
+
+
+}
+.desicart:hover{
+    transform: scale(1.05);
+}
+
+.desicart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desicart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.kfccart{
+    width: 350px;
+    height: 68vh;
+    padding: 20px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 50px auto;
+    transition: 0.3s;
+    position: relative;
+    bottom: 1500px;
+    left: 4vh;
+}
+
+.kfccart:hover{
+    transform: scale(1.05);
+}
+
+.kfccart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.kfccart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.burgercart{
+    width: 350px;
+    height: 68vh;
+    padding: 20px;
+    border: 2px solid rgb(27, 25, 25);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    margin: 50px auto;
+    transition: 0.3s;
+    position: relative;
+    bottom: 2101px;
+    left: 54vh;
+    
+}
+
+.burgercart:hover{
+    transform: scale(1.05);
+}
+
+.burgercart img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.burgercart button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
